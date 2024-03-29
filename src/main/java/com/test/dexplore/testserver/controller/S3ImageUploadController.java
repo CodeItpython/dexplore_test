@@ -45,7 +45,6 @@ public class S3ImageUploadController {
 
     @PostMapping("/api/get_image")
     public ResponseEntity<?> getImage(@RequestParam String imageUrl) {
-        
         return s3UploadService.getImage(imageUrl);
     }
 

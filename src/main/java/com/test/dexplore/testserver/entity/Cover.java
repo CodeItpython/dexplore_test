@@ -16,7 +16,7 @@ import java.sql.Timestamp;
 @Setter
 @Entity
 @Builder
-public class Cover {
+public class Cover{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
